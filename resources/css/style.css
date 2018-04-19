@@ -5,18 +5,37 @@ main color
 
 */
 
-/********Basice Prefixes**********/
+/************** Basice Prefixes *************/
 
-html, body {
+html,
+body {
     width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
 
-/***************************************************************/
-/**************************** HEADER ***************************/
-/***************************************************************/
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 180%;
+    margin-bottom: 80px;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    color: #2e2e2e;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #34495E;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/*********************** HEADER ***********************/
 
 header {
     display: -webkit-box;
@@ -31,7 +50,7 @@ header {
 
 /******logo******/
 
-header .logo{
+header .logo {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     font-size: 350%;
@@ -43,8 +62,8 @@ header .logo{
 /****Navigation*****/
 
 header nav {
-    width: 30rem; 
-    
+    width: 30rem;
+
 }
 
 header nav ul {
@@ -68,7 +87,7 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    
+
 }
 
 header nav ul li a {
@@ -79,24 +98,22 @@ header nav ul li a {
     box-sizing: border-box;
     -webkit-transition: border 0.3s;
     transition: border 0.3s;
-} 
+}
 
 header nav ul li a:hover {
     border-bottom: 1px solid #a4a7aa;
     padding-bottom: 10px;
+    color: #cccccc;
 }
 
 
-/****************************************************************/
-/********************* Body Section *****************************/
-/****************************************************************/
 
 
-/**** Header-body-section ****/
+/******************* Header-body-section ********************/
 
 .header-body {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(../img/main-bg.jpg) ;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(../img/main-bg.jpg) ;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7))), url(../img/main-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7)), url(../img/main-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,11 +140,174 @@ header nav ul li a:hover {
 
 .hero-text-box p {
     font-size: 1.2rem;
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 1px;
+}
+
+/********************* About **********************/
+
+.about {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about p {
+    text-align: justify;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 140%;
+    margin: 0 auto;
+    word-spacing: 0.5px;
+    text-rendering: optimizeLegibility;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #393939;
+    margin-bottom: 70px;
+}
+
+/********************* Portfolio *********************/
+
+.portfolio {
+    overflow: auto;
+    background-color: #f5f5f5;
+    padding-bottom: 100px;
+
+}
+
+.portfolio .row .col,
+.row .col {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+/*** Website names ***/
+
+.portfolio .row .col .web-name a {
+    text-decoration: none;
+    margin-top: -3px;
+    color: #a4a7aa;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.portfolio .row .col .web-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    margin: 0;
+    height: 50px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #34495E;
 }
 
 
+/***** portfolio imgs ******/
+
+.portfolio .row img {
+    width: 100%;
+    opacity: 0.7;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.3);
+    -webkit-transition: opacity, -webkit-transform 0.4s;
+    transition: opacity, -webkit-transform 0.4s;
+    transition: transform 0.4s, opacity;
+    transition: transform 0.4s, opacity, -webkit-transform 0.4s;
+}
+
+.portfolio .row img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
 
 
+/********************* Users Reviews **********************/
 
+.users-reviews {
+    overflow: auto;
+    padding-bottom: 100px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#34495E), to(rgba(75, 75, 75, 0.47))), url('../img/testimonialBackground.jpg');
+    background-image: linear-gradient(#34495E, rgba(75, 75, 75, 0.47)), url('../img/testimonialBackground.jpg')
+}
 
+.users-reviews .row {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 20px;
+}
 
+.users-reviews .row .col {
+    overflow: visible;
+}
+
+.users-reviews h2 {
+    color: #cccccc;
+}
+
+.users-reviews h2:after {
+    display: block;
+    height: 2px;
+    background-color: #cccccc;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.users-reviews .row .col blockquote {
+    text-align: left;
+    margin: 0 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    word-spacing: 2px;
+    line-height: 150%;
+    font-style: italic;
+    color: #cccccc;
+}
+
+.users-reviews .row .col h4 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 35px;
+    margin-right: 20px;
+    font-size: 130%;
+    font-weight: 400;
+    height: 50px;
+    position: relative;
+    top: -15px;
+    color: #cccccc;
+    ;
+
+}
+
+.users-reviews .row .col img {
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.users-reviews .row .col blockquote:before {
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    color: #cccccc;
+}
