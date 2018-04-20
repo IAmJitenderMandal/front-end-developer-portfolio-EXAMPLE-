@@ -178,8 +178,7 @@ header nav ul li a:hover {
 
 }
 
-.portfolio .row .col,
-.row .col {
+.portfolio .row .col {
     height: 300px;
     overflow: hidden;
     position: relative;
@@ -310,4 +309,86 @@ header nav ul li a:hover {
     top: -5px;
     left: 5px;
     color: #cccccc;
+}
+
+/********************* Skillset **********************/
+.skillset {
+    padding-bottom: 100px;
+}
+.skillset .row .col{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+
+}
+
+.skillset .row .col i {
+    display: inline-block;
+    font-size: 500%;
+    padding: 50px;
+
+}
+
+
+/********************* Contact-form **********************/
+.contact-form {
+    background-color: #f5f5f5;   
+    padding-bottom: 100px;
+}
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section.contact-form form div.row div.col.span-1-of-2 label{
+    padding-right: 150px;
+    display: block;
+    font-size: 20px;
+    text-align: right;
+    color: #4a4a4a;
+    font-weight: 200;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid #a2a2a2;
+    border-radius: none;
+}
+
+form input, select {
+    display: block;
+    width: 80%;
+    font-size: 20px;
+    color: #4a4a4a;
+    padding: 5px;
+    background-color: #f5f5f5;
+    font-weight: 100;
+}
+
+form textarea{
+    width: 80%;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+form button[type=submit] {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    color: #d6d6d6;
+    background-color: #34495E;
+    border-radius: 5px;
+    font-weight: 100;
+    border-radius: 20px;
+    border: none;
 }
