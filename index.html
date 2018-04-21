@@ -16,17 +16,16 @@
         <section class="logo">JM</section>
         <nav class="nav">
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portflio</a></li>
-                <li><a href="#">Why Me</a></li>
-                <li><a href="#">Skillset</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portflio</a></li>
+                <li><a href="#skills">Skillset</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
 
-    <section class="header-body">
+    <section class="header-body" id="header">
         <div class="hero-text-box">
             Code. Eat. Sleep. Repeat
             <p>I am an Junior Front End developer</p>
@@ -35,12 +34,12 @@
 
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <h2>About</h2>
-        <p>Hello i'm A junior front-end Web developer. I am working front last couple of months i have done couple of project in my past experience. With my skillset right now i can work on Responsive designs, static web site for any kind of small buisness and PSD to Responsive website Design also and i am able to adding intractivity in web pages.</p>
+        <p>Hello i'm A junior front-end Web developer. I have done couple of project in my past experience. With my skillset right now i can work on Responsive designs, static web site for any kind of small buisness and PSD to Responsive website Design also and i am able to adding intractivity in web pages.</p>
     </section>
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <h2>Portfolio</h2>
         <div class="row">
             <section class="col span-1-of-3 temp-1"><img src="resources/img/temp-1.jpg" alt="template-1">
@@ -65,7 +64,7 @@
             </section>
         </div>
     </section>
-    <section class="users-reviews">
+    <section class="users-reviews" id="testimonials">
         <h2>What Our Clients Says</h2>
         <div class="row">
             <div class="col span-1-of-3">
@@ -91,11 +90,11 @@
             </div>
         </div>
     </section>
-    
-    <section class="skillset">
-       <div class="row">
-           <h2>Skillset</h2>
-       </div>
+
+    <section class="skillset" id="skills">
+        <div class="row">
+            <h2>Skillset</h2>
+        </div>
         <div class="row">
             <div class="col span-1-of-4"><i class="ion-social-html5-outline"></i></div>
             <div class="col span-1-of-4"><i class="ion-social-css3-outline"></i></div>
@@ -109,61 +108,65 @@
             <div class="col span-1-of-4"><i class="ion-social-codepen-outline"></i></div>
         </div>
     </section>
-    <section class="contact-form">
-       <div class="row">
-           <h2>Contact me</h2>
-       </div>
+    <section class="contact-form" id="contact">
+        <div class="row">
+            <h2>Contact me</h2>
+        </div>
         <form action="#">
-              <div class="row">
-                 <div class="col span-1-of-2">
-                     <label for="name">Your Name</label>
-                 </div>
-                 <div class="col span-1-of-2">
-                     <input type="text" name="name" id="name" placeholder="Your name" required>
-                 </div>
-              </div>
-              
-              <div class="row">
-                 <div class="col span-1-of-2">
-                     <label for="name">Your EmailID</label>
-                 </div>
-                 <div class="col span-1-of-2">
-                     <input type="email" name="email" id="email" placeholder="Your Email" required>
-                 </div>
-              </div>
-              
-              <div class="row">
-                 <div class="col span-1-of-2">
-                     <label for="budget">Your Budget</label>
-                 </div>
-                 <div class="col span-1-of-2">
-                     <select name="budget" id="budget">
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="col span-1-of-2">
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <label for="name">Your EmailID</label>
+                </div>
+                <div class="col span-1-of-2">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <label for="budget">Your Budget</label>
+                </div>
+                <div class="col span-1-of-2">
+                    <select name="budget" id="budget">
                          <option value="500$">500$</option>
                          <option value="1000$">1000$</option>
                          <option value="1500$">1500$</option>
                          <option value="2000$">2000$</option>
                      </select>
-                 </div>
-                 
-              </div>
-              
-              <div class="row">
-                 <div class="col span-1-of-2">
-                     <label for="name">Your Idea</label>
-                 </div>
-                 <div class="col span-1-of-2">
-                     <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
-                 </div>
-              </div>
-              <div class="row">
-                 <div class="col span-1-of-2">
-                     <label for=""></label>
-                 </div>
-                 <div class="col span-1-of-2">
-                     <button type="submit">Submit</button>
-                 </div>
-              </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <label for="name">Your Idea</label>
+                </div>
+                <div class="col span-1-of-2">
+                    <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <label for=""></label>
+                </div>
+                <div class="col span-1-of-2">
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
         </form>
     </section>
-    </body>
+    <footer>
+        <p>Made with <span class="love"><i class="ion-heart"></i></span> by Jitender</p>
+        <p>Note: this template i designed just for learning purpose. Not for any commercial use..</p>
+    </footer>
+</body>
 </html>

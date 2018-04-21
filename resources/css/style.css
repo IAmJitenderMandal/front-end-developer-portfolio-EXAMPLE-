@@ -392,3 +392,22 @@ form button[type=submit] {
     border-radius: 20px;
     border: none;
 }
+
+
+/********************* Contact-form **********************/
+footer {
+    background-color: #34495E;
+    height: 100px;
+    text-align: center;
+    vertical-align: center;
+    overflow: auto;
+}
+
+footer .love {
+    color: #f43434;
+}
+
+footer p {
+    color: #d6d9db;
+    font-weight: 100;
+}
