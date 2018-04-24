@@ -1,0 +1,116 @@
+/***************** For 840px viewport **********************/
+@media screen and (max-width: 840px) {
+    .header-body .hero-text-box{
+        font-size: 4.5rem;
+    }
+    
+    .col.span-1-of-3{
+        width: 100%;
+    }
+    
+     section#portfolio .row .col{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .col.span-1-of-3 blockquote {
+        text-align: justify;
+    }
+    html, body {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+/***************** For 750px viewport **********************/
+@media screen and (max-width: 750px) {
+    
+    .header-body .hero-text-box{
+        font-size: 3rem;
+    }
+    
+}
+/***************** For 700px viewport **********************/
+@media screen and (max-width: 700px) {
+    #head .nav i.ion-android-menu{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: relative;
+        left: 80%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    
+    }
+    
+    header#head nav ul{
+        display: none;
+        z-index: 999;
+    }
+    
+    header#head nav.nav ul.mobile-menu{
+        display: block;
+        position: absolute;
+        width: 40%;
+        top: 100%;
+        left: 60%;
+        height: auto;
+        background-color: #34495E;
+    }
+    
+    
+    
+    header#head nav.nav ul li {
+        display: block;
+        padding: 20px;
+    }
+    header#head nav.nav ul li a {
+        font-size: 1.5rem;
+        
+    }
+    
+    section#portfolio .row .col{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    html, body {
+        overflow-x: hidden;
+    }
+}
+/***************** For 670px viewport **********************/
+@media screen and (max-width: 670px) {
+    #contact form div.row div.col:first-child {
+        display: none;        
+    }
+    
+    #contact form div.row{
+        margin-top: 20px;    
+    }
+    
+    #contact form div.row div.col input {
+        margin: 0 auto;
+    }
+    
+    #contact form div.row div.col select {
+        margin: 0 auto;
+    }
+
+    #contact form div.row div.col{
+        width: 100%;
+        text-align: center;
+    }
+    
+}
