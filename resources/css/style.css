@@ -7,6 +7,7 @@ main color
 
 /************** Basice Prefixes *************/
 
+
 html,
 body {
     width: 100%;
@@ -34,6 +35,10 @@ h2:after {
     width: 100px;
     margin: 0 auto;
     margin-top: 30px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 /*********************** HEADER ***********************/
