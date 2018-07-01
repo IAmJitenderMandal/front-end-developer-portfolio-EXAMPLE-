@@ -43,7 +43,7 @@
 /***************** For 700px viewport **********************/
 
 @media screen and (max-width: 700px) {
-    #head .nav i.ion-android-menu {
+    #head .nav i.fa-bars {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;

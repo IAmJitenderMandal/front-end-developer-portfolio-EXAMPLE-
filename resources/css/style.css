@@ -71,7 +71,7 @@ header nav {
 
 }
 
-header .nav i.ion-android-menu {
+header .nav i.fa-bars {
     display: none;
 }
 
@@ -125,7 +125,7 @@ header nav ul li a:hover {
     color: #cccccc;
 }
 
-header nav .ion-android-menu {
+header nav .fa-bars{
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;

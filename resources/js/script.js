@@ -1,6 +1,6 @@
 // Mobile menu code
 
-var mobileBar = document.getElementsByTagName('i')[0];
+var mobileBar = document.querySelector('i.fa-bars');
 var ul = document.getElementsByTagName('ul')[0];
 
 mobileBar.addEventListener('click', function() {
